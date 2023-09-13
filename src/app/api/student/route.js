@@ -132,6 +132,7 @@ export const DELETE = async (request) => {
   //1. use array filter method
   // DB.students = DB.students.filter(...);
   DB.students.splice(foundIndex, 1);
+
   //or 2. use splice array method
   // DB.students.splice(...)
 
